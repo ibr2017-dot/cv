@@ -34,7 +34,7 @@ ul {
 }
 
 ul li {
-    margin-right: 20px;
+    margin-right: 40px;
     font-size: 30px;
     text-transform: uppercase;
 
@@ -131,4 +131,5 @@ object {}
     100% {
         background-color: lch(51.72% 92.05 41.63);
     }
+
 }
