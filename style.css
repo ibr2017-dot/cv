@@ -25,6 +25,7 @@ header {
     padding-left: 100px;
     position: fixed;
     top: 0;
+    flex-wrap: wrap-reverse;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
 }
 
 ul li {
-    margin-right: 40px;
+    margin-right: 50px;
     font-size: 30px;
     text-transform: uppercase;
 
@@ -48,7 +49,7 @@ a {
     width: 100px;
     border-radius: 50%;
     padding: 5px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .social {
@@ -130,6 +131,32 @@ object {}
 
     100% {
         background-color: lch(51.72% 92.05 41.63);
+    }
+}
+
+@media (max-width:300px) {
+    header {
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    li {
+
+        margin: 0px;
     }
 
 }
