@@ -12,7 +12,7 @@
 
 body {
     font-family: "Kufam", sans-serif;
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
     color: var(--fontcolor);
 
@@ -35,17 +35,22 @@ main {
 
 
 header {
-    width: 98vw;
+    width: 99vw;
     background-color: antiquewhite;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 50px 20px; */
-    /* margin: 50px 20px; */
+    border-radius: 15px;
+    /*justify-content: center;
+    *//*align-items: center;
+    *//*padding: 50px 20px;*/
+    margin:  0px auto;
     position: fixed;
     top: 0px;
-    /* flex-wrap: wrap-reverse; */
+    /*flex-wrap: wrap-reverse;*/
     z-index: 999;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 header ul {
@@ -74,7 +79,7 @@ header ul li {
 }
 
 caption {
-    width: 98vw;
+    width: 100vw;
     padding: 0px 20px;
     margin: 20px 100px;
     text-transform: uppercase;
@@ -96,6 +101,25 @@ a {
     border: 5px solid #a3670d9c;
     border-radius: 12px;
     font-size: 25px;
+    margin-top: 80px;
+    margin-left: 30px;
+    /* margin: 0px 50px; */
+    /* border: #333 solid 5px; */
+    /* border-radius: 25px; */
+    /* padding: 10px; */
+    table-layout: fixed;
+
+}
+
+.table2 {
+    width: 60%;
+    border-collapse: separate;
+    border: 5px solid #a3670d9c;
+    border-radius: 12px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
     /* margin: 0px 50px; */
     /* border: #333 solid 5px; */
     /* border-radius: 25px; */
