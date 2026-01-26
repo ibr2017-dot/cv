@@ -257,7 +257,7 @@ div.scroll-container2 img {
 
 
 /* media */
-@media (max-width:300px) {
+@media (max-width:390px) {
     header {
         width: 99vw;
         display: flex;
@@ -299,6 +299,7 @@ div.scroll-container2 img {
         /* width: 600px; */
         background-color: #a3670d54;
     }
+
 
 
 
