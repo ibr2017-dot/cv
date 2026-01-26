@@ -85,17 +85,7 @@ h1 {
     margin: auto;
 }
 
-caption {
-    width: 100vw;
-    padding: 0px 20px;
-    margin: 20px 100px;
-    text-transform: uppercase;
-    color: var(--fontcolor);
-    background-color: blanchedalmond;
-    text-align: left;
-    align-items: center;
 
-}
 
 a {
     text-decoration: none;
@@ -259,4 +249,58 @@ div.scroll-container2 img {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+
+
+
+
+
+/* media */
+@media (max-width:300px) {
+    header {
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    h1 {
+        font-size: 15px;
+        margin: auto;
+    }
+
+    header ul li {
+        font-size: 10px;
+        width: 80%;
+        margin: 5px;
+
+    }
+
+    .table1,
+    .table2 {
+        width: 100%;
+        margin: 1px;
+        padding: 1px;
+         table-layout: auto;
+    }
+
+    .table1 td {
+        width: 400px;
+        background-color: #a3670d54;
+    }
+
+    .table2 td {
+        /* width: 600px; */
+        background-color: #a3670d54;
+    }
+
+
+
+
 }
