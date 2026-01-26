@@ -29,7 +29,7 @@ main {
    height: 300px;*/
     margin-top: 50px;
     /* overflow:visible; */
-
+    scroll-margin-top: 100px;
 }
 
 
@@ -40,9 +40,11 @@ header {
     display: flex;
     border-radius: 15px;
     /*justify-content: center;
-    *//*align-items: center;
-    *//*padding: 50px 20px;*/
-    margin:  0px auto;
+    */
+    /*align-items: center;
+    */
+    /*padding: 50px 20px;*/
+    margin: 0px auto;
     position: fixed;
     top: 0px;
     /*flex-wrap: wrap-reverse;*/
@@ -130,6 +132,11 @@ a {
 
 .table1 td {
     width: 400px;
+    background-color: #a3670d54;
+}
+
+.table2 td {
+    width: 600px;
     background-color: #a3670d54;
 }
 
