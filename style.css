@@ -44,7 +44,7 @@ header {
     /*align-items: center;
     */
     /*padding: 50px 20px;*/
-    margin: 0px auto;
+    margin: 1px auto;
     position: fixed;
     top: 0px;
     /*flex-wrap: wrap-reverse;*/
@@ -57,7 +57,7 @@ header {
 
 header ul {
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
     align-items: center;
     list-style: none;
@@ -66,9 +66,9 @@ header ul {
 }
 
 header ul li {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bolder;
-    width: 19%;
+    width: 20%;
     background-color: #e6c295f3;
     border-radius: 20px;
     text-align: center;
@@ -77,6 +77,11 @@ header ul li {
 #logo {
     width: 4%;
     border-radius: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
     margin: auto;
 }
 
