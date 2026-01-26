@@ -15,7 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     color: var(--fontcolor);
-
+    background-color: bisque;
 
 }
 
@@ -210,9 +210,18 @@ td {
 
 
 div.gallery {
+    width: 85vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    border: #a3670d9c 5px solid;
+    margin: 5px;
+    margin-left: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 div.gallery-item {
@@ -237,7 +246,7 @@ div.gallery-item div.desc {
 
 div.scroll-container2 {
     width: 80vw;
-    height: 200px;
+    height: 150px;
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
@@ -246,6 +255,8 @@ div.scroll-container2 {
 }
 
 div.scroll-container2 img {
-    padding: 10px;
-    width: 200px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
